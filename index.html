@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Be My Valentine?</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="success-overlay" id="successScreen">
+        <div class="success-images">
+            <img src="sraboni1.jpeg" alt="Left" class="side-img left-img">
+            <img src="sraboni2.jpeg" alt="Right" class="side-img right-img">
+        </div>
+        
+        <h2>Happy Valentine Day My (Lokki) ❤️</h2>
+        <p>I love You So much 🫶</p>
+    </div>
+
+    <div class="container" id="mainUI">
+        <div class="content-wrapper">
+            <div class="title-box">
+                <h1>Be My Valentine?</h1>
+                <p>My Heart Beats For You</p>
+            </div>
+
+            <div class="btn-group">
+                <button class="btn-yes" id="yesBtn" onclick="acceptProposal()">Yes, I will!</button>
+                <button class="btn-no" id="noBtn">No</button>
+            </div>
+        </div>
+    </div>
+
+    <canvas id="scene"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
